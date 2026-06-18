@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Congrats Masuk Sekolah Negeri</title>
+
+<audio controls src="lagu full part.mp3"></audio>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background:linear-gradient(180deg,#1a0b14,#2b1020,#3d1329);
+font-family:'Poppins',sans-serif;
+overflow-x:hidden;
+color:white;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px;
+position:relative;
+overflow:hidden;
+}
+
+.hero-content{
+text-align:center;
+max-width:800px;
+z-index:5;
+animation:fadeUp 1.5s ease;
+}
+
+.profile{
+width:240px;
+height:240px;
+margin:auto;
+border-radius:50%;
+overflow:hidden;
+border:5px solid rgba(255,255,255,.25);
+box-shadow:0 0 50px rgba(255,105,180,.5);
+}
+
+.profile img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+.subtitle{
+margin-top:25px;
+letter-spacing:3px;
+font-size:14px;
+color:#f6c4d6;
+text-transform:uppercase;
+}
+
+h1{
+font-family:'Playfair Display',serif;
+font-size:clamp(40px,8vw,75px);
+line-height:1.1;
+margin-top:15px;
+}
+
+.highlight{
+color:#ffb3d1;
+}
+
+.desc{
+margin-top:20px;
+font-size:18px;
+opacity:.9;
+line-height:1.8;
+}
+
+.btn{
+margin-top:35px;
+padding:15px 35px;
+border:none;
+border-radius:999px;
+background:#ff7cae;
+color:white;
+font-size:16px;
+cursor:pointer;
+transition:.3s;
+}
+
+.btn:hover{
+transform:scale(1.08);
+}
+
+.section{
+padding:120px 25px;
+max-width:900px;
+margin:auto;
+text-align:center;
+}
+
+.glass{
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(12px);
+padding:35px;
+border-radius:25px;
+border:1px solid rgba(255,255,255,.12);
+}
+
+.section h2{
+font-family:'Playfair Display',serif;
+font-size:42px;
+margin-bottom:20px;
+color:#ffc3dd;
+}
+
+.section p{
+line-height:2;
+font-size:18px;
+}
+
+.hidden-message{
+display:none;
+margin-top:30px;
+animation:fadeUp 1s ease;
+}
+
+.flower{
+position:absolute;
+top:-100px;
+font-size:25px;
+animation:fall linear infinite;
+pointer-events:none;
+}
+
+@keyframes fall{
+0%{
+transform:translateY(-100px) rotate(0deg);
+}
+100%{
+transform:translateY(120vh) rotate(720deg);
+}
+}
+
+@keyframes fadeUp{
+from{
+opacity:0;
+transform:translateY(40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<div class="profile">
+<img src="sapi.jpg" alt="Sapi Kuu">
+</div>
+
+<div class="subtitle">
+A Special Congratulations
+</div>
+
+<h1>
+Selamat Masuk<br>
+<span class="highlight">Sekolah Negeri</span>
+</h1>
+
+<p class="desc">
+Untuk Sapi Kuu ✨🌸
+</p>
+
+<button class="btn" onclick="showMessage()">
+Buka Pesan 
+</button>
+
+<div class="hidden-message" id="pesan">
+<div class="glass">
+<p>
+Selamat yaa sapi kuu 🥳🌸<br><br>
+
+Akhirnya keterima sekolah negeri juga.
+Aku ikut seneng dan bangga sama kamu.
+
+Semoga betah di sekolah barunya,
+makin rajin belajar,
+makin banyak teman baik,
+makin dekat sama cita-cita yang kamu impikan,
+dan semoga semua usaha yang kamu lakukan
+selalu membawa hasil yang terbaik.
+
+Tetap semangat yaa ✨🌷
+</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+<div class="glass">
+<h2>🌸 A New Chapter 🌸</h2>
+<p>
+Hari ini bukan cuma tentang masuk sekolah baru.
+Ini adalah langkah baru menuju mimpi-mimpi yang pengen kamu capai piii
+yang selama ini kamu perjuangkan.
+
+Semoga setiap langkahmu dipenuhi kebahagiaan,
+keberuntungan, dan orang-orang baik.
+sama satu lagi jangan sering" di biasain klo lagi sedih tuh atau galau jangan lama-lama, kalau kamu lagi ada masalah hidup juga jangan lupa doa
+</p>
+</div>
+</section>
+
+<section class="section">
+<div class="glass">
+<h2>✨ Proud Of You ✨</h2>
+<p>
+Nggak semua orang bisa sampai di titik ini.
+
+Jadi hari ini,
+jangan lupa bangga sama diri sendiri.
+
+Karena semua usaha, doa,
+dan perjuangan kamu selama ini
+akhirnya membuahkan hasil yang indah.
+</p>
+</div>
+</section>
+
+<section class="section">
+<div class="glass">
+<h2>🎉 Congratulations 🎉</h2>
+<p>
+Selamat masuk sekolah negeri yaa sapi kuu 🌸
+
+Semoga perjalanan barumu penuh cerita indah,
+pengalaman seru,
+dan keberhasilan yang lebih besar lagi.
+
+Keep shining ✨
+</p>
+</div>
+</section>
+
+<script>
+
+function showMessage(){
+document.getElementById("pesan").style.display="block";
+document.getElementById("pesan").scrollIntoView({
+behavior:'smooth'
+});
+}
+
+const emojis=["🌸","✨","🌷","💖"];
+
+for(let i=0;i<60;i++){
+
+const flower=document.createElement("div");
+
+flower.classList.add("flower");
+
+flower.innerHTML=
+emojis[Math.floor(Math.random()*emojis.length)];
+
+flower.style.left=Math.random()*100+"vw";
+
+flower.style.animationDuration=
+(Math.random()*8+9)+"s";
+
+flower.style.opacity=Math.random();
+
+flower.style.fontSize=
+(Math.random()*20+15)+"px";
+
+document.body.appendChild(flower);
+}
+</script>
+
+</body>
+</html>
